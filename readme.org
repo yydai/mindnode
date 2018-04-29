@@ -1,7 +1,7 @@
 * Covert Org to opml
 
 ** You need to know
-    This file is coming from [[https://github.com/semk/Org2OPML][semk/Org2OPML]], but I add a feature for it that we can add note to any node.
+    This file is coming from [[https://github.com/semk/Org2OPML][semk/Org2OPML]], but I add a feature for it that we can add a notes for a node.
 
     I think this feature is really important and useful for me.
 
