@@ -49,6 +49,7 @@ class OrgParser(object):
     def parse(self):
         '''parse content line by line
         '''
+        prev = None
         for line in self.content:
             line = line.strip()
             if line.startswith('#+'):
