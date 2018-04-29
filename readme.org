@@ -17,5 +17,8 @@
 ** Usage
     Run the command:
     #+BEGIN_SRC python
-    python3 org2opml.py <org_file>
+    # export test.opml
+    python3 org2opml.py test.org
     #+END_SRC
+
+    and then we import *test.opml* to [[https://mindnode.com/][MindNode]].
