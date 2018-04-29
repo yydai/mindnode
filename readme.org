@@ -1,0 +1,21 @@
+* Covert Org to opml
+
+** You need to know
+    This file is coming from [[https://github.com/semk/Org2OPML][semk/Org2OPML]], but I add a feature for it that we can add note to any node.
+
+    I think this feature is really important and useful for me.
+
+** What to do
+    Create a Mindnode from org file.
+    #+ATTR_HTML: :width 80%
+    [[file:./imgs/20180429_220719_29803piz.png]]
+
+    We can look up the node popover:
+    #+ATTR_HTML: :width 80%
+    [[file:./imgs/20180429_222055_29803bsC.png]]
+
+** Usage
+    Run the command:
+    #+BEGIN_SRC python
+    python3 org2opml.py <org_file>
+    #+END_SRC
