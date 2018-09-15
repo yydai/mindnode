@@ -19,6 +19,12 @@
     #+ATTR_HTML: :width 80%
     [[file:./imgs/notes.png]]
 
+    You can directly run:
+    #+BEGIN_SRC shell
+    wget https://raw.githubusercontent.com/yydai/mindnode/master/run.sh && bash run.sh <xxx.org>
+    #+END_SRC
+
+    or
     Run the command:
     #+BEGIN_SRC python
     # export test.opml
